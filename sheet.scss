@@ -1,0 +1,288 @@
+.alles {
+  display: flex;
+  flex-direction: row;
+  gap: 20px 20px;
+  flex-wrap: wrap;
+  background-color: #c3cfe2;
+  position: relative;
+}
+
+@media (min-width: 400px) {
+  .hide1 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 400px;
+    background-color: lightgrey;
+  }
+  .een:hover .hide1 {
+    opacity: 1;
+  }
+
+  .hide2 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 620px;
+    left: 0;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .twee:hover .hide2 {
+    opacity: 1;
+  }
+
+  .hide3 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 1240px;
+    left: 0;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .drie:hover .hide3 {
+    opacity: 1;
+  }
+
+  .hide4 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 1860px;
+    left: 0px;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .vier:hover .hide4 {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  .hide1 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 400px;
+    background-color: lightgrey;
+  }
+  .een:hover .hide1 {
+    opacity: 1;
+  }
+
+  .hide2 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    left: 420px;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .twee:hover .hide2 {
+    opacity: 1;
+  }
+
+  .hide3 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 620px;
+    left: 0;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .drie:hover .hide3 {
+    opacity: 1;
+  }
+
+  .hide4 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 620px;
+    left: 420px;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .vier:hover .hide4 {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hide1 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 400px;
+    background-color: lightgrey;
+  }
+  .een:hover .hide1 {
+    opacity: 1;
+  }
+
+  .hide2 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    left: 420px;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .twee:hover .hide2 {
+    opacity: 1;
+  }
+
+  .hide3 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    left: 840px;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .drie:hover .hide3 {
+    opacity: 1;
+  }
+
+  .hide4 {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    top: 620px;
+    left: 0px;
+    height: 600px;
+    width: 400px;
+    opacity: 0;
+    background-color: lightgrey;
+  }
+  .vier:hover .hide4 {
+    opacity: 1;
+  }
+}
+
+.all {
+  flex-direction: column;
+}
+
+.kaart {
+  background-color: #fff;
+  border: 1px solid #b0bac9;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 2px #b0bac9;
+}
+
+.text {
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.footer {
+  text-align: center;
+  background: #686de0;
+  height: 140px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.footer::before {
+  content: "";
+  background-color: #686de0;
+  width: 248px;
+  height: 30px;
+  display: inline-block;
+}
+
+.img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 50px;
+}
+
+#mySidenav a {
+  position: absolute;
+  right: -130px;
+  transition: 0.3s;
+  padding: 20px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+
+#mySidenav a:hover {
+  right: 5px;
+}
+
+#about {
+  top: 20px;
+  background-color: #04aa6d;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196f3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555;
+}
+
+#linked {
+  top: 260px;
+  background-color: #2196f3;
+}
