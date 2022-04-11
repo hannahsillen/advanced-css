@@ -14,91 +14,59 @@
 }
 
 @media (min-width: 400px) {
-  .foto1 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
   .hide1 {
     opacity: 0;
     position: absolute;
     text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
     font-size: 16px;
     top: 0;
     left: 0;
-    height: 600px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     background-color: lightgrey;
   }
   .een:hover .hide1 {
     opacity: 1;
   }
-  .foto2 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
   .hide2 {
     opacity: 0;
     position: absolute;
     text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
     font-size: 16px;
-    top: 620px;
+    top: 370px;
     left: 0;
-    height: 600px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     opacity: 0;
     background-color: lightgrey;
   }
   .twee:hover .hide2 {
     opacity: 1;
   }
-  .foto3 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    top: 1240px;
-    left: 0;
-  }
   .hide3 {
     opacity: 0;
     position: absolute;
     text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
     font-size: 16px;
-    top: 1240px;
+    top: 740px;
     left: 0;
-    height: 600px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     opacity: 0;
     background-color: lightgrey;
   }
   .drie:hover .hide3 {
     opacity: 1;
   }
-  .foto4 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    top: 1860px;
-    left: 0;
-  }
   .hide4 {
     opacity: 0;
     position: absolute;
     text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
     font-size: 16px;
-    top: 1860px;
+    top: 1110px;
     left: 0px;
-    height: 600px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     opacity: 0;
     background-color: lightgrey;
   }
@@ -108,190 +76,28 @@
 }
 
 @media (min-width: 800px) {
-  .foto1 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
-  .hide1 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
-    top: 0;
-    left: 0;
-    height: 600px;
-    width: 400px;
-    background-color: lightgrey;
-  }
-  .een:hover .hide1 {
-    opacity: 1;
-  }
-  .foto2 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
   .hide2 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
     top: 0;
-    left: 420px;
-    height: 600px;
-    width: 400px;
-    opacity: 0;
-    background-color: lightgrey;
-  }
-  .twee:hover .hide2 {
-    opacity: 1;
-  }
-  .foto3 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    top: 620px;
-    left: 0;
+    left: 370px;
   }
   .hide3 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
-    top: 620px;
+    top: 350px;
     left: 0;
-    height: 600px;
-    width: 400px;
-    opacity: 0;
-    background-color: lightgrey;
-  }
-  .drie:hover .hide3 {
-    opacity: 1;
-  }
-  .foto4 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    top: 620px;
-    left: 420px;
   }
   .hide4 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
-    top: 620px;
-    left: 420px;
-    height: 600px;
-    width: 400px;
-    opacity: 0;
-    background-color: lightgrey;
-  }
-  .vier:hover .hide4 {
-    opacity: 1;
+    top: 740px;
+    left: 350px;
   }
 }
 
 @media (min-width: 1000px) {
-  .foto1 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
-  .hide1 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
-    top: 0;
-    left: 0;
-    height: 600px;
-    width: 400px;
-    background-color: lightgrey;
-  }
-  .een:hover .hide1 {
-    opacity: 1;
-  }
-  .foto2 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
-  .hide2 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
-    top: 0;
-    left: 420px;
-    height: 600px;
-    width: 400px;
-    opacity: 0;
-    background-color: lightgrey;
-  }
-  .twee:hover .hide2 {
-    opacity: 1;
-  }
-  .foto3 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    top: 0;
-    left: 400px;
-  }
   .hide3 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
     top: 0;
-    left: 840px;
-    height: 600px;
-    width: 400px;
-    opacity: 0;
-    background-color: lightgrey;
-  }
-  .drie:hover .hide3 {
-    opacity: 1;
-  }
-  .foto4 {
-    opacity: 1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    top: 0;
-    left: 400px;
+    left: 740px;
   }
   .hide4 {
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    font-size: 16px;
-    top: 620px;
+    top: 370px;
     left: 0px;
-    height: 600px;
-    width: 400px;
-    opacity: 0;
-    background-color: lightgrey;
-  }
-  .vier:hover .hide4 {
-    opacity: 1;
   }
 }
 
@@ -302,7 +108,7 @@
           flex-direction: column;
 }
 
-.kaart {
+.all .kaart {
   background-color: #fff;
   border: 1px solid #b0bac9;
   border-radius: 20px;
@@ -312,18 +118,27 @@
           box-shadow: 1px 1px 2px #b0bac9;
 }
 
-.text {
+.all .kaart .text {
   font-size: 1.2em;
   margin-top: 30px;
   margin-left: 10px;
 }
 
-.footer {
+.all .kaart .footer {
   text-align: center;
   background: #686de0;
   height: 140px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.all .kaart .img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 50px;
 }
 
 .footer::before {
@@ -334,114 +149,45 @@
   display: inline-block;
 }
 
-.img {
-  border-radius: 50%;
-  border: 3px solid #fff;
-  margin: auto;
-  display: block;
-  position: relative;
-  top: 50px;
-}
-
-.social-media {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.blogtext {
-  opacity: 1;
+#mySidenav a {
   position: absolute;
-  text-align: center;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  font-size: 16px;
-  bottom: 240px;
-  right: 0;
-  height: 30px;
-  width: 200px;
+  right: -100px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 20px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+
+#mySidenav a:hover {
+  width: 100px;
+}
+
+.sidenav #blog {
+  top: 20px;
   background-color: #e17b77;
 }
 
-.blog {
-  background-color: #e17b77;
-  right: 0;
-}
-
-.fbtext {
-  opacity: 1;
-  position: absolute;
-  text-align: center;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  font-size: 16px;
-  bottom: 200px;
-  right: 0;
-  height: 30px;
-  width: 200px;
+.sidenav #facebook {
+  top: 80px;
   background-color: #3b5998;
 }
 
-.facebook {
-  background-color: #3b5998;
-  right: 0;
-}
-
-.ttext {
-  opacity: 1;
-  position: absolute;
-  text-align: center;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  font-size: 16px;
-  bottom: 160px;
-  right: 0;
-  height: 30px;
-  width: 200px;
+.sidenav #twitter {
+  top: 140px;
   background-color: #00aced;
 }
 
-.twitter {
-  background-color: #00aced;
-  right: 0;
-}
-
-.gittext {
-  opacity: 1;
-  position: absolute;
-  text-align: center;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  font-size: 16px;
-  bottom: 120px;
-  right: 0;
-  height: 30px;
-  width: 200px;
+.sidenav #github {
+  top: 200px;
   background-color: #333;
 }
 
-.github {
-  background-color: #333;
-  right: 0;
-}
-
-.linkedtext {
-  opacity: 1;
-  position: absolute;
-  text-align: center;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  font-size: 16px;
-  bottom: 80px;
-  right: 0;
-  height: 30px;
-  width: 200px;
+.sidenav #linked {
+  top: 260px;
   background-color: #007bb6;
-}
-
-.linkedin {
-  background-color: #007bb6;
-  right: 0;
 }
 /*# sourceMappingURL=sheet.css.map */
