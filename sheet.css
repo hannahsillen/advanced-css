@@ -151,11 +151,12 @@
 
 #mySidenav a {
   position: absolute;
-  right: -100px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  right: -10px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
   padding: 20px;
-  width: 100px;
+  width: 10px;
+  height: 10px;
   text-decoration: none;
   font-size: 15px;
   color: white;
@@ -164,6 +165,37 @@
 
 #mySidenav a:hover {
   width: 100px;
+  right: 10px;
+}
+
+#mySidenav #blog:hover ::after {
+  content: "my blog";
+  text-decoration: none;
+  font-size: 10px;
+}
+
+#mySidenav #facebook:hover ::after {
+  content: "facebook";
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#mySidenav #twitter:hover ::after {
+  content: "my twitter";
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#mySidenav #github:hover ::after {
+  content: "my github";
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#mySidenav #linked:hover ::after {
+  content: "my linkedin";
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .sidenav #blog {
