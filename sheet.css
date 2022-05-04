@@ -1,28 +1,23 @@
 .alles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 20px 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   background-color: #c3cfe2;
   position: relative;
+  display: -ms-grid;
+  display: grid;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 100px) {
+  .alles {
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    background-color: #c3cfe2;
+  }
   .hide1 {
     opacity: 0;
+    height: 350px;
+    width: 350px;
     position: absolute;
     text-align: center;
     font-size: 16px;
-    top: 0;
-    left: 0;
-    height: 350px;
-    width: 350px;
     background-color: lightgrey;
   }
   .een:hover .hide1 {
@@ -33,11 +28,8 @@
     position: absolute;
     text-align: center;
     font-size: 16px;
-    top: 370px;
-    left: 0;
     height: 350px;
     width: 350px;
-    opacity: 0;
     background-color: lightgrey;
   }
   .twee:hover .hide2 {
@@ -48,11 +40,8 @@
     position: absolute;
     text-align: center;
     font-size: 16px;
-    top: 740px;
-    left: 0;
     height: 350px;
     width: 350px;
-    opacity: 0;
     background-color: lightgrey;
   }
   .drie:hover .hide3 {
@@ -63,11 +52,8 @@
     position: absolute;
     text-align: center;
     font-size: 16px;
-    top: 1110px;
-    left: 0px;
     height: 350px;
     width: 350px;
-    opacity: 0;
     background-color: lightgrey;
   }
   .vier:hover .hide4 {
@@ -75,40 +61,25 @@
   }
 }
 
-@media (min-width: 800px) {
-  .hide2 {
-    top: 0;
-    left: 370px;
-  }
-  .hide3 {
-    top: 350px;
-    left: 0;
-  }
-  .hide4 {
-    top: 740px;
-    left: 350px;
+@media (min-width: 700px) {
+  .alles {
+    -ms-grid-columns: 50% 30%;
+        grid-template-columns: 50% 30%;
+    -ms-grid-rows: 40% 40%;
+        grid-template-rows: 40% 40%;
   }
 }
 
-@media (min-width: 1000px) {
-  .hide3 {
-    top: 0;
-    left: 740px;
-  }
-  .hide4 {
-    top: 370px;
-    left: 0px;
+@media (min-width: 1100px) {
+  .alles {
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    -ms-grid-rows: 60%;
+        grid-template-rows: 60%;
   }
 }
 
-.all {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.all .kaart {
+.kaart {
   background-color: #fff;
   border: 1px solid #b0bac9;
   border-radius: 20px;
@@ -118,13 +89,13 @@
           box-shadow: 1px 1px 2px #b0bac9;
 }
 
-.all .kaart .text {
+.kaart .text {
   font-size: 1.2em;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
-.all .kaart .footer {
+.kaart .footer {
   text-align: center;
   background: #686de0;
   height: 140px;
@@ -132,7 +103,7 @@
   border-bottom-right-radius: 20px;
 }
 
-.all .kaart .img {
+.kaart .img {
   border-radius: 50%;
   border: 3px solid #fff;
   margin: auto;
